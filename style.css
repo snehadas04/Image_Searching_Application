@@ -31,7 +31,7 @@ form{
     border: none;
     box-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
     border-radius: 5px;
-    font-size: 15px;
+    font-size: 20px;
     color: #333;
 }
 
@@ -40,9 +40,13 @@ form{
     background-color: mediumblue;
     color: azure;
     border: none;
-    font-size: 15px;
+    font-size: 20px;
     box-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
     cursor: pointer;
     border-radius: 5px;
     margin-left: 10px;
+}
+
+.search-result{
+    
 }
