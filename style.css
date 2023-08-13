@@ -48,5 +48,7 @@ form{
 }
 
 .search-result{
+    display: flex;
+    justify-content: space-between;
     
 }
