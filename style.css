@@ -80,4 +80,6 @@ form{
     text-decoration: none;
     color: #333;
     display: block;
+    padding: 10px;
+    text-transform: capitalize;
 }
