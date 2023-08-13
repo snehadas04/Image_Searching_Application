@@ -54,3 +54,9 @@ form{
     max-width: 1200px;
     margin: 0 auto;
 }
+
+.search-res{
+    margin-bottom: 60px;
+    width: 30%;
+    height: 100%;
+}
