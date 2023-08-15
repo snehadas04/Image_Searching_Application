@@ -99,6 +99,9 @@ form{
 }
 
 @media screen and (max-width:768px){
+    .search-result{
+        padding: 20px;
+    }
     .search-res{
         width: 45%;
     }
