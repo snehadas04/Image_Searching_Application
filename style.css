@@ -97,3 +97,9 @@ form{
     margin: 30px auto;
     display: none;
 }
+
+@media screen and (max-width:768px){
+    .search-res{
+        width: 45%;
+    }
+}
