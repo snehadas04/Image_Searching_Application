@@ -71,7 +71,7 @@ form{
     transition: opacity 0.2s ease-in-out;
 }
 
-.search-res :hover img{
+.search-res:hover img{
     opacity: 0.8;
 }
 
