@@ -17,5 +17,13 @@ async function searchInput(){
 
     const result = data.result
 
-    if
+    if(page === 1){
+        searchResult.innerHTML = ""
+    }
+
+    result.map((result) =>{
+        const imageWrapper = document.createElement('div')
+        imageWrapper.classList.add("search-res")
+        const image = document.createElement('img')
+    })
 }
