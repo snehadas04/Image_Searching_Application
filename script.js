@@ -29,5 +29,7 @@ async function searchInput(){
         image.alt = result.alt_description
         const imageLink = document.createElement('a')
         imageLink.href = result.link.html
+        imageLink.target = "_blank"
+        imageLink.textContent = result.alt_description
     })
 }
