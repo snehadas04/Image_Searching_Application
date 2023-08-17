@@ -4,3 +4,6 @@ const formE1 = document.querySelector("form")
 const inputE1 = document.getElementById("search-input")
 const searchResult = document.querySelector(".search-result")
 const showMore = document.getElementById("show-more")
+
+let inputData = ""
+let page = 1;
