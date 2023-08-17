@@ -8,7 +8,14 @@ const showMore = document.getElementById("show-more")
 let inputData = ""
 let page = 1;
 
- async function searchInput(){
+async function searchInput(){
     inputData = inputE1.view;
     const url = `https://api.unsplash.com/search/photos/pages=$(page)&query=${inputData}&client_id=${accessKey}`
+
+    const response = await fetch(url)
+    const data = await response.json()
+
+    const result = data.result
+
+    if
 }
