@@ -31,5 +31,9 @@ async function searchInput(){
         imageLink.href = result.link.html
         imageLink.target = "_blank"
         imageLink.textContent = result.alt_description
-    })
+
+        imageWrapper.appendChild(image);
+        imageWrapper.appendChild(imageLink);
+        imageWrapper.appendChild(imageWrapper);
+    });
 }
