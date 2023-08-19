@@ -25,12 +25,12 @@ async function searchInput(){
         const imageWrapper = document.createElement('div');
         imageWrapper.classList.add("search-res");
         const image = document.createElement('img');
-        image.src = result.urls.small
-        image.alt = result.alt_description
-        const imageLink = document.createElement('a')
-        imageLink.href = result.link.html
-        imageLink.target = "_blank"
-        imageLink.textContent = result.alt_description
+        image.src = result.urls.small;
+        image.alt = result.alt_description;
+        const imageLink = document.createElement('a');
+        imageLink.href = result.link.html;
+        imageLink.target = "_blank";
+        imageLink.textContent = result.alt_description;
 
         imageWrapper.appendChild(image);
         imageWrapper.appendChild(imageLink);
