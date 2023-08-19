@@ -49,8 +49,6 @@ formE1.addEventListener("submit", (Event) => {
     searchImages()
 })
 
-showMore.addEventListener("click",(Event) => {
-    Event.preventDefault()
-    page = 1;
+showMore.addEventListener("click",() => {
     searchImages()
 })
