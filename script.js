@@ -41,5 +41,10 @@ async function searchInput(){
     if(page > 1){
         showMore.style.display = "block"
     }
-
 }
+
+formE1.addEventListener("submit", (Event) => {
+    Event.preventDefault()
+    page = 1;
+    searchImages()
+})
