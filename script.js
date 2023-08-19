@@ -36,4 +36,10 @@ async function searchInput(){
         imageWrapper.appendChild(imageLink);
         imageWrapper.appendChild(imageWrapper);
     });
+
+    page++
+    if(page > 1){
+        showMore.style.display = "block"
+    }
+
 }
