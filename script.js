@@ -15,16 +15,16 @@ async function searchInput(){
     const response = await fetch(url);
     const data = await response.json();
 
-    const result = data.result
+    const result = data.result;
 
     if(page === 1){
-        searchResult.innerHTML = ""
+        searchResult.innerHTML = "";
     }
 
     result.map((result) =>{
-        const imageWrapper = document.createElement('div')
-        imageWrapper.classList.add("search-res")
-        const image = document.createElement('img')
+        const imageWrapper = document.createElement('div');
+        imageWrapper.classList.add("search-res");
+        const image = document.createElement('img');
         image.src = result.urls.small
         image.alt = result.alt_description
         const imageLink = document.createElement('a')
